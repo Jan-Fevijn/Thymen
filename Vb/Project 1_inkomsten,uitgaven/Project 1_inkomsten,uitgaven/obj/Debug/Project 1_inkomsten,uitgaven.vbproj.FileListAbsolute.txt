@@ -1,0 +1,36 @@
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.exe.config
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.exe
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.pdb
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.xml
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbprojResolveAssemblyReference.cache
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project_1_inkomsten_uitgaven.Form1.resources
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project_1_inkomsten_uitgaven.Resources.resources
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbproj.GenerateResource.Cache
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbproj.CoreCompileInputs.cache
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.exe
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.xml
+C:\Users\thymenvanbiervliet\source\repos\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.pdb
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.exe.config
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.exe
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.pdb
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.xml
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbprojAssemblyReference.cache
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project_1_inkomsten_uitgaven.Form1.resources
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project_1_inkomsten_uitgaven.Resources.resources
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbproj.GenerateResource.cache
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbproj.CoreCompileInputs.cache
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.exe
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.xml
+C:\Users\Thyme\Desktop\school\Visual basic\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.pdb
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.exe.config
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.exe
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.pdb
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\bin\Debug\Project 1_inkomsten,uitgaven.xml
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbprojResolveAssemblyReference.cache
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project_1_inkomsten_uitgaven.Form1.resources
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project_1_inkomsten_uitgaven.Resources.resources
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbproj.GenerateResource.Cache
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.vbproj.CoreCompileInputs.cache
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.exe
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.xml
+C:\Users\thymenvanbiervliet\Desktop\oefeningen\niet websites\VB\Project 1_inkomsten,uitgaven\Project 1_inkomsten,uitgaven\obj\Debug\Project 1_inkomsten,uitgaven.pdb
