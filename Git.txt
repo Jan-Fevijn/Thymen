@@ -1,0 +1,18 @@
+Eerste keer:
+1) Map git maken
+2) link map kopieren
+3) git bash openen
+4) cd + ' + insert(zelfde als ctrl+v) + '
+5) Git clone https://github.com/Jan-Fevijn/Thymen(.git)
+
+7)git init
+8)ls -la voor te testen
+
+Opstarten
+0) link map kopieren
+1) cd + ' + insert(zelfde als ctrl+v) + '
+
+opslaan:
+Git add .
+Git commit -m 'melding' 
+Git push
