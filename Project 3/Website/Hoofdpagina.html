@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Broodautomaat</title>
+	<link href="Hoofdpagina.css" rel="stylesheet" type="text/css">
+</head>
+	<script>
+		//drag and drop
+		function allowDrop(ev) {
+		  ev.preventDefault();
+		}
+
+		function drag(ev) {
+		  ev.dataTransfer.setData("text", ev.target.id);
+		}
+
+		function drop(ev) {
+		  ev.preventDefault();
+		  var data = ev.dataTransfer.getData("text");
+		  ev.target.appendChild(document.getElementById(data));
+		}
+</script>
+	<body>
+		<div class="Menubalk">
+			<div class="MenubalkRechts"></div>
+		</div>
+		<!--<script>
+				//drag and drop
+			function allowDrop(ev) {
+			  ev.preventDefault();
+			}
+
+			function drag(ev) {
+			  ev.dataTransfer.setData("text", ev.target.id);
+			}
+
+			function drop(ev) {
+			  ev.preventDefault();
+			  var data = ev.dataTransfer.getData("text");
+			  ev.target.appendChild(document.getElementById(data));
+			}
+		</script>-->
+		<div class="Links" id="Links">
+			<div class="MenubalkLinks" id="Gesch" onClick="Verstoppen()"><p><h2>Aankoopgeschiedenis</h2></p></div>
+			<div class="Menubalklinksonder"  id="Geschiedenis" >
+				<input value="Gebruikersnummer"/>
+				<table class="Geschiedenistabel">
+					<tbody>
+						<th>Datum</th><th>Type</th><th>Prijs</th>
+						<script>
+						//Normaal moet gebruikers ID ook nog maar omdat het zonder databanklink is heb ik dat tijdelijk overgelaten
+						//Datum
+							//Brood-(ID)
+								//Prijs
+						var Tranactie =
+						[["26/04/2020","Wit","€1.00"],["27/04/2020","Bruin","€1.00"],["28/04/2020","Grijs","€1.00"],["29/04/2020","Smurf","€1.00"],["20/02/2020","Volkoren","€1.00"]];
+						var transaant = Tranactie.length;
+						for (var i=0; i < transaant; i++) { document.write ('<tr><td>' + Tranactie[i][0] + '</td><td>' + Tranactie[i][1] + '</td><td>' + Tranactie[i][2] + '</td>')}
+
+					</script> 
+					</tbody>
+				</table>
+			</div>
+			
+		
+			
+		
+		</div>
+		<img src="Afbeeldingen/Broodautomaat.PNG" alt="broodautomaat" class="Broodautomaat">
+		<div class="Broodmachine">
+			<!--voorbeeld:<img class="Brood" src="Afbeeldingen/Melkwit.PNG" alt="Melkwit" draggable="true" ondragstart="drag(event)" id="Brood1">-->
+			<script>
+			//max 15 brooden in automaat
+			//afbeelding
+				//naam brood
+					//aantal
+						//prijs
+							
+			var Brooden =[["Afbeeldingen/Melkwit.PNG", "Melkwit", "3", "100"],["Afbeeldingen/Melkwit.PNG", "Melkwit", "3", "100"],["Afbeeldingen/GrofVolkoren.PNG","GrofVolkoren","2","150"],["Afbeeldingen/Melkwit.PNG", "Melkwit", "3", "100"],["Afbeeldingen/Melkwit.PNG", "Melkwit", "3", "100"],["Afbeeldingen/Melkwit.PNG", "Melkwit", "3", "100"],
+			["","","",""],["Afbeeldingen/Melkwit.PNG", "Melkwit", "3", "100"],["","","",""],["","","",""],["","","",""],["","","",""],["","","",""],["","","",""],["","","",""]];
+
+			for (i=0; i< 15; i++) {
+        if (Brooden[i][0] = "") {
+        document.write ('<div class="Brood"></div>');
+      	} else {
+          document.write ('<div Class="Brood" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="' + Brooden[i][0] + '" class="Brood" alt="' + Brooden[i][1] + '"ID="' + i + '" draggable="true" ondragstart="drag(event)"></div>');
+        }}
+		</script>
+			<div id="Mand" ondrop="drop(event)" ondragover="allowDrop(event)">Winkelmand</div>
+		</div>
+		<script>
+			function Verstoppen(){
+			  var x = document.getElementById("Geschiedenis");
+			  if (x.style.display === "none") {
+				x.style.display = "block";
+				Links.style.background = "#587d71";
+			  } else {
+				x.style.display = "none";
+				Links.style.background = "#aaffcc";
+			  }
+			}
+	
+		</script>
+	</body>
+</html>

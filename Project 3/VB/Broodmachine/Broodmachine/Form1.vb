@@ -37,7 +37,7 @@
         lblNummer2.Text = "2-€" & (Naamsplit(Locatie(1), 2))
         lblNummer3.Text = "3-€" & (Naamsplit(Locatie(2), 2))
         lblNummer4.Text = "4-€" & (Naamsplit(Locatie(3), 2))
-        lblNummer5.Text = "5-€" & (Naamsplit(Locatie(4), 3))
+        lblNummer5.Text = "5-€" & (Naamsplit(Locatie(4), 2))
         lblNummer6.Text = "6-€" & (Naamsplit(Locatie(5), 2))
         lblNummer7.Text = "7-€" & (Naamsplit(Locatie(6), 2))
         lblNummer8.Text = "8-€" & (Naamsplit(Locatie(7), 2))
