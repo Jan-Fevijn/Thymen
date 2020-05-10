@@ -3,10 +3,21 @@
     Public Broden As New List(Of String)({"Leeg", "Limburgs Terf", "Melkwit", "Volkoren F.Fijn Volkoren", "Volkoren F.Grof Volkoren", "Boeren Tarwe", "Wit", "Tarwe", "BBD M.Boeren Donker Meergranen", "Gogh Meergranen", "Spelt(Half)", "Boeren Tijger Tarwe", "Boeren Tijger Wit", "Boeren Mout"})
     'Als afkorting.vol / vol
     Public Locatie As New List(Of String)({"15;2;1.50", "", "", "", "", "", "", "", "", "", "", "", "", "", "13;5;2.00"}) 'opgeslagen als aantal;typeindex;prijs(in euro)
+    Public Munten() As Integer = ({4, 5, 6, 7, 3})
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'combobox invullen met broodkeuzes
         BroodRefresh()
+        MuntenTellen()
+
+    End Sub
+
+    Private Sub Muntentellen()
+        num2.Value = Munten(0)
+        num1.Value = Munten(1)
+        num50.Value = Munten(2)
+        num10.Value = Munten(3)
+        num5.Value = Munten(4)
     End Sub
 
     Private Sub BroodRefresh()
@@ -243,4 +254,124 @@
         End Try
 
     End Sub
+
+    Private Sub btnSaveMunten_Click(sender As Object, e As EventArgs) Handles btnSaveMunten.Click
+        Munten(0) = num2.Value
+        Munten(1) = num1.Value
+        Munten(2) = num50.Value
+        Munten(3) = num10.Value
+        Munten(4) = num5.Value
+    End Sub
+
+    Private Sub btnMuntenTellen_Click(sender As Object, e As EventArgs) Handles btnMuntenTellen.Click
+        Muntentellen()
+    End Sub
+
+    Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
+        'De broodaanpassingen opslaan
+        Try
+            If (Not (numLocatie.Value < 1)) And numLocatie.Value - 1 < 16 And numAantal.Value > 0 Then
+                'eerst de getallen omvormen naar het correcte formaat en dan opslaan als 1 string
+                Locatie(numLocatie.Value - 1) = numAantal.Value & ";" & cbType.SelectedIndex & ";" & CentEuro(numPrijs.Value)
+                numLocatie.Value = 0
+                numAantal.Value = 0
+                numPrijs.Value = 0
+                cbType.SelectedIndex = 0
+                MessageBox.Show("Succesvol opgeslagen.")
+                Refresh()
+            Else
+                MessageBox.Show("Ongeldige waarden zijn ingegeven.")
+            End If
+        Catch
+            MessageBox.Show("Deze locatie is niet beschikbaar of de ingegeven waarden zijn ongeldig.")
+        End Try
+        BroodRefresh()
+    End Sub
+
+    Private Sub btnC_Click(sender As Object, e As EventArgs) Handles btnC.Click
+        Locatie.Clear()
+        Dim x As Integer
+        Do Until x = 15
+            x = x + 1
+            Locatie.Add("")
+        Loop
+        BroodRefresh()
+    End Sub
+
+    'De kleine knopjes op de machine.
+    Private Sub btn0_Click(sender As Object, e As EventArgs) Handles btn0.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+
+    Private Sub btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+
+    Private Sub btn2_Click(sender As Object, e As EventArgs) Handles btn2.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+
+    Private Sub btn3_Click(sender As Object, e As EventArgs) Handles btn3.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+
+    Private Sub btn4_Click(sender As Object, e As EventArgs) Handles btn4.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+    Private Sub btn5_Click(sender As Object, e As EventArgs) Handles btn5.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+    Private Sub btn6_Click(sender As Object, e As EventArgs) Handles btn6.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+    Private Sub btn7_Click(sender As Object, e As EventArgs) Handles btn7.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+    Private Sub btn8_Click(sender As Object, e As EventArgs) Handles btn8.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+    Private Sub btn9_Click(sender As Object, e As EventArgs) Handles btn9.Click
+        Try
+            numLocatie.Value = numLocatie.Value * 10
+        Catch
+            MessageBox.Show("De waarde is the hoog.")
+        End Try
+    End Sub
+
 End Class

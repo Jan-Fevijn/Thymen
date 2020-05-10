@@ -77,9 +77,34 @@ Partial Class Form1
         Me.txtKlantcode = New System.Windows.Forms.TextBox()
         Me.lblBedrag = New System.Windows.Forms.Label()
         Me.btnRefresh = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.num2 = New System.Windows.Forms.NumericUpDown()
+        Me.num5 = New System.Windows.Forms.NumericUpDown()
+        Me.num10 = New System.Windows.Forms.NumericUpDown()
+        Me.num50 = New System.Windows.Forms.NumericUpDown()
+        Me.num1 = New System.Windows.Forms.NumericUpDown()
+        Me.btnSaveMunten = New System.Windows.Forms.Button()
+        Me.btnMuntenTellen = New System.Windows.Forms.Button()
+        Me.btn1 = New System.Windows.Forms.Button()
+        Me.btn4 = New System.Windows.Forms.Button()
+        Me.btn3 = New System.Windows.Forms.Button()
+        Me.btn6 = New System.Windows.Forms.Button()
+        Me.btn7 = New System.Windows.Forms.Button()
+        Me.btnC = New System.Windows.Forms.Button()
+        Me.btn2 = New System.Windows.Forms.Button()
+        Me.btnOK = New System.Windows.Forms.Button()
+        Me.btn9 = New System.Windows.Forms.Button()
+        Me.btn5 = New System.Windows.Forms.Button()
+        Me.btn8 = New System.Windows.Forms.Button()
+        Me.btn0 = New System.Windows.Forms.Button()
         CType(Me.numAantal, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.numPrijs, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.numLocatie, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.num2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.num5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.num10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.num50, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.num1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnBrood1
@@ -272,7 +297,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(471, 254)
+        Me.Label1.Location = New System.Drawing.Point(490, 224)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(241, 13)
         Me.Label1.TabIndex = 21
@@ -308,7 +333,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(563, 283)
+        Me.Label5.Location = New System.Drawing.Point(557, 247)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(31, 13)
         Me.Label5.TabIndex = 25
@@ -316,7 +341,7 @@ Partial Class Form1
         '
         'txtBedrag
         '
-        Me.txtBedrag.Location = New System.Drawing.Point(566, 330)
+        Me.txtBedrag.Location = New System.Drawing.Point(560, 301)
         Me.txtBedrag.Name = "txtBedrag"
         Me.txtBedrag.Size = New System.Drawing.Size(100, 20)
         Me.txtBedrag.TabIndex = 27
@@ -324,7 +349,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(509, 307)
+        Me.Label6.Location = New System.Drawing.Point(503, 271)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(59, 13)
         Me.Label6.TabIndex = 28
@@ -333,7 +358,7 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(509, 333)
+        Me.Label7.Location = New System.Drawing.Point(504, 301)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(41, 13)
         Me.Label7.TabIndex = 29
@@ -341,7 +366,7 @@ Partial Class Form1
         '
         'btnHelpPersoon
         '
-        Me.btnHelpPersoon.Location = New System.Drawing.Point(672, 330)
+        Me.btnHelpPersoon.Location = New System.Drawing.Point(666, 301)
         Me.btnHelpPersoon.Name = "btnHelpPersoon"
         Me.btnHelpPersoon.Size = New System.Drawing.Size(19, 20)
         Me.btnHelpPersoon.TabIndex = 30
@@ -350,9 +375,9 @@ Partial Class Form1
         '
         'btnOpslaanPersoon
         '
-        Me.btnOpslaanPersoon.Location = New System.Drawing.Point(560, 407)
+        Me.btnOpslaanPersoon.Location = New System.Drawing.Point(643, 350)
         Me.btnOpslaanPersoon.Name = "btnOpslaanPersoon"
-        Me.btnOpslaanPersoon.Size = New System.Drawing.Size(75, 23)
+        Me.btnOpslaanPersoon.Size = New System.Drawing.Size(73, 23)
         Me.btnOpslaanPersoon.TabIndex = 32
         Me.btnOpslaanPersoon.Text = "Uitvoeren"
         Me.btnOpslaanPersoon.UseVisualStyleBackColor = True
@@ -360,7 +385,7 @@ Partial Class Form1
         'lblNaam
         '
         Me.lblNaam.AutoSize = True
-        Me.lblNaam.Location = New System.Drawing.Point(560, 366)
+        Me.lblNaam.Location = New System.Drawing.Point(503, 333)
         Me.lblNaam.Name = "lblNaam"
         Me.lblNaam.Size = New System.Drawing.Size(53, 13)
         Me.lblNaam.TabIndex = 33
@@ -538,7 +563,7 @@ Partial Class Form1
         '
         'txtKlantcode
         '
-        Me.txtKlantcode.Location = New System.Drawing.Point(566, 304)
+        Me.txtKlantcode.Location = New System.Drawing.Point(560, 268)
         Me.txtKlantcode.Name = "txtKlantcode"
         Me.txtKlantcode.Size = New System.Drawing.Size(125, 20)
         Me.txtKlantcode.TabIndex = 53
@@ -546,7 +571,7 @@ Partial Class Form1
         'lblBedrag
         '
         Me.lblBedrag.AutoSize = True
-        Me.lblBedrag.Location = New System.Drawing.Point(563, 388)
+        Me.lblBedrag.Location = New System.Drawing.Point(503, 355)
         Me.lblBedrag.Name = "lblBedrag"
         Me.lblBedrag.Size = New System.Drawing.Size(74, 13)
         Me.lblBedrag.TabIndex = 54
@@ -561,13 +586,203 @@ Partial Class Form1
         Me.btnRefresh.Text = "Refresh"
         Me.btnRefresh.UseVisualStyleBackColor = True
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(495, 387)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(221, 13)
+        Me.Label8.TabIndex = 56
+        Me.Label8.Text = "2 Euro 1 euro 50 cent 20 cent 10 cent 5 cent"
+        '
+        'num2
+        '
+        Me.num2.Location = New System.Drawing.Point(492, 410)
+        Me.num2.Name = "num2"
+        Me.num2.Size = New System.Drawing.Size(40, 20)
+        Me.num2.TabIndex = 57
+        '
+        'num5
+        '
+        Me.num5.Location = New System.Drawing.Point(676, 410)
+        Me.num5.Name = "num5"
+        Me.num5.Size = New System.Drawing.Size(40, 20)
+        Me.num5.TabIndex = 58
+        '
+        'num10
+        '
+        Me.num10.Location = New System.Drawing.Point(630, 410)
+        Me.num10.Name = "num10"
+        Me.num10.Size = New System.Drawing.Size(40, 20)
+        Me.num10.TabIndex = 59
+        '
+        'num50
+        '
+        Me.num50.Location = New System.Drawing.Point(584, 410)
+        Me.num50.Name = "num50"
+        Me.num50.Size = New System.Drawing.Size(40, 20)
+        Me.num50.TabIndex = 60
+        '
+        'num1
+        '
+        Me.num1.Location = New System.Drawing.Point(538, 410)
+        Me.num1.Name = "num1"
+        Me.num1.Size = New System.Drawing.Size(40, 20)
+        Me.num1.TabIndex = 61
+        '
+        'btnSaveMunten
+        '
+        Me.btnSaveMunten.Location = New System.Drawing.Point(643, 436)
+        Me.btnSaveMunten.Name = "btnSaveMunten"
+        Me.btnSaveMunten.Size = New System.Drawing.Size(73, 26)
+        Me.btnSaveMunten.TabIndex = 62
+        Me.btnSaveMunten.Text = "Opslaan"
+        Me.btnSaveMunten.UseVisualStyleBackColor = True
+        '
+        'btnMuntenTellen
+        '
+        Me.btnMuntenTellen.Location = New System.Drawing.Point(498, 438)
+        Me.btnMuntenTellen.Name = "btnMuntenTellen"
+        Me.btnMuntenTellen.Size = New System.Drawing.Size(75, 23)
+        Me.btnMuntenTellen.TabIndex = 63
+        Me.btnMuntenTellen.Text = "Annuleren"
+        Me.btnMuntenTellen.UseVisualStyleBackColor = True
+        '
+        'btn1
+        '
+        Me.btn1.Location = New System.Drawing.Point(396, 238)
+        Me.btn1.Name = "btn1"
+        Me.btn1.Size = New System.Drawing.Size(10, 10)
+        Me.btn1.TabIndex = 64
+        Me.btn1.Text = "Button1"
+        Me.btn1.UseVisualStyleBackColor = True
+        '
+        'btn4
+        '
+        Me.btn4.Location = New System.Drawing.Point(396, 247)
+        Me.btn4.Name = "btn4"
+        Me.btn4.Size = New System.Drawing.Size(10, 10)
+        Me.btn4.TabIndex = 65
+        Me.btn4.Text = "Button2"
+        Me.btn4.UseVisualStyleBackColor = True
+        '
+        'btn3
+        '
+        Me.btn3.Location = New System.Drawing.Point(414, 238)
+        Me.btn3.Name = "btn3"
+        Me.btn3.Size = New System.Drawing.Size(10, 10)
+        Me.btn3.TabIndex = 66
+        Me.btn3.Text = "Button3"
+        Me.btn3.UseVisualStyleBackColor = True
+        '
+        'btn6
+        '
+        Me.btn6.Location = New System.Drawing.Point(414, 247)
+        Me.btn6.Name = "btn6"
+        Me.btn6.Size = New System.Drawing.Size(10, 10)
+        Me.btn6.TabIndex = 67
+        Me.btn6.Text = "Button4"
+        Me.btn6.UseVisualStyleBackColor = True
+        '
+        'btn7
+        '
+        Me.btn7.Location = New System.Drawing.Point(396, 255)
+        Me.btn7.Name = "btn7"
+        Me.btn7.Size = New System.Drawing.Size(10, 10)
+        Me.btn7.TabIndex = 68
+        Me.btn7.Text = "Button5"
+        Me.btn7.UseVisualStyleBackColor = True
+        '
+        'btnC
+        '
+        Me.btnC.Location = New System.Drawing.Point(396, 263)
+        Me.btnC.Name = "btnC"
+        Me.btnC.Size = New System.Drawing.Size(10, 10)
+        Me.btnC.TabIndex = 69
+        Me.btnC.Text = "Button6"
+        Me.btnC.UseVisualStyleBackColor = True
+        '
+        'btn2
+        '
+        Me.btn2.Location = New System.Drawing.Point(405, 238)
+        Me.btn2.Name = "btn2"
+        Me.btn2.Size = New System.Drawing.Size(10, 10)
+        Me.btn2.TabIndex = 70
+        Me.btn2.Text = "Button7"
+        Me.btn2.UseVisualStyleBackColor = True
+        '
+        'btnOK
+        '
+        Me.btnOK.Location = New System.Drawing.Point(414, 263)
+        Me.btnOK.Name = "btnOK"
+        Me.btnOK.Size = New System.Drawing.Size(10, 10)
+        Me.btnOK.TabIndex = 71
+        Me.btnOK.Text = "Button8"
+        Me.btnOK.UseVisualStyleBackColor = True
+        '
+        'btn9
+        '
+        Me.btn9.Location = New System.Drawing.Point(414, 255)
+        Me.btn9.Name = "btn9"
+        Me.btn9.Size = New System.Drawing.Size(10, 10)
+        Me.btn9.TabIndex = 72
+        Me.btn9.Text = "Button9"
+        Me.btn9.UseVisualStyleBackColor = True
+        '
+        'btn5
+        '
+        Me.btn5.Location = New System.Drawing.Point(405, 247)
+        Me.btn5.Name = "btn5"
+        Me.btn5.Size = New System.Drawing.Size(10, 10)
+        Me.btn5.TabIndex = 73
+        Me.btn5.Text = "Button10"
+        Me.btn5.UseVisualStyleBackColor = True
+        '
+        'btn8
+        '
+        Me.btn8.Location = New System.Drawing.Point(405, 255)
+        Me.btn8.Name = "btn8"
+        Me.btn8.Size = New System.Drawing.Size(10, 10)
+        Me.btn8.TabIndex = 74
+        Me.btn8.Text = "Button11"
+        Me.btn8.UseVisualStyleBackColor = True
+        '
+        'btn0
+        '
+        Me.btn0.Location = New System.Drawing.Point(405, 263)
+        Me.btn0.Name = "btn0"
+        Me.btn0.Size = New System.Drawing.Size(10, 10)
+        Me.btn0.TabIndex = 75
+        Me.btn0.Text = "Button12"
+        Me.btn0.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(693, 476)
+        Me.ClientSize = New System.Drawing.Size(736, 473)
+        Me.Controls.Add(Me.btn0)
+        Me.Controls.Add(Me.btn8)
+        Me.Controls.Add(Me.btn5)
+        Me.Controls.Add(Me.btn9)
+        Me.Controls.Add(Me.btnOK)
+        Me.Controls.Add(Me.btn2)
+        Me.Controls.Add(Me.btnC)
+        Me.Controls.Add(Me.btn7)
+        Me.Controls.Add(Me.btn6)
+        Me.Controls.Add(Me.btn3)
+        Me.Controls.Add(Me.btn4)
+        Me.Controls.Add(Me.btn1)
+        Me.Controls.Add(Me.btnMuntenTellen)
+        Me.Controls.Add(Me.btnSaveMunten)
+        Me.Controls.Add(Me.num1)
+        Me.Controls.Add(Me.num50)
+        Me.Controls.Add(Me.num10)
+        Me.Controls.Add(Me.num5)
+        Me.Controls.Add(Me.num2)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.btnRefresh)
         Me.Controls.Add(Me.lblBedrag)
         Me.Controls.Add(Me.txtKlantcode)
@@ -627,6 +842,11 @@ Partial Class Form1
         CType(Me.numAantal, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.numPrijs, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.numLocatie, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.num2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.num5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.num10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.num50, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.num1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -686,4 +906,24 @@ Partial Class Form1
     Friend WithEvents txtKlantcode As TextBox
     Friend WithEvents lblBedrag As Label
     Friend WithEvents btnRefresh As Button
+    Friend WithEvents Label8 As Label
+    Friend WithEvents num2 As NumericUpDown
+    Friend WithEvents num5 As NumericUpDown
+    Friend WithEvents num10 As NumericUpDown
+    Friend WithEvents num50 As NumericUpDown
+    Friend WithEvents num1 As NumericUpDown
+    Friend WithEvents btnSaveMunten As Button
+    Friend WithEvents btnMuntenTellen As Button
+    Friend WithEvents btn1 As Button
+    Friend WithEvents btn4 As Button
+    Friend WithEvents btn3 As Button
+    Friend WithEvents btn6 As Button
+    Friend WithEvents btn7 As Button
+    Friend WithEvents btnC As Button
+    Friend WithEvents btn2 As Button
+    Friend WithEvents btnOK As Button
+    Friend WithEvents btn9 As Button
+    Friend WithEvents btn5 As Button
+    Friend WithEvents btn8 As Button
+    Friend WithEvents btn0 As Button
 End Class
